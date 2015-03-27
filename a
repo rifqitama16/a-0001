@@ -1,0 +1,13 @@
+table {text-align: center;font-size: 14px}
+table, tr, td {border: 1px solid #999;border-collapse: collapse}
+table tr {height:30px;}
+table td {width:60px; text-align: center}
+table #kepala, table #kepala2 {background: #eaeaea}
+table #blank {background: #dfdfdf}
+table #kana { font-size: 20px}
+
+h3.ke3 { font-size: 26px; font-weight: normal; border-bottom: 1px dotted #bbb; padding-bottom: 5px;}
+h4.ke4 { font-size: 20px; font-weight: normal} h6.ke6 { font-weight: normal}
+
+.hTampil, .kTampil, .hSembunyi, .kSembunyi { transition: 0.2s all; border-radius: 50px; cursor: pointer; background: #EA4B35; padding: 7px; font-size:16px; color: #fff; width: 200px; text-align: center}
+.hTampil:hover, .kTampil:hover, .hSembunyi:hover, .kSembunyi:hover { background: #000}
