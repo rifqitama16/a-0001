@@ -5,14 +5,14 @@ $(document).ready(function(){
    $('.sembunyi').hide();
 
 //Ketika elemen class htampil di klik
-   $('.hTampil').click(function(){
+   $('.tampil').click(function(){
       $('.lanjutan').slideToggle("slow");
       $('.sembunyi').show();
       $('.tampil').hide();
    });
 
 //Ketika elemen class hsembunyi di klik
-   $('.hSembunyi').click(function(){
+   $('.sembunyi').click(function(){
       //Sembunyikan elemen class gambar
       $('.lanjutan').slideToggle("slow");
       $('.sembunyi').hide();
