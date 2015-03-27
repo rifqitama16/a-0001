@@ -1,21 +1,21 @@
 //Inisiasi awal penggunaan jQuery
 $(document).ready(function(){
    //Pertama sembunyikan elemen2nya
-   $('.lanjutan').hide();
-   $('.sembunyi').hide();
+   $('.cont').hide();
+   $('.hide').hide();
 
 //Ketika elemen class htampil di klik
-   $('.tampil').click(function(){
-      $('.lanjutan').slideToggle("slow");
-      $('.sembunyi').show();
-      $('.tampil').hide();
+   $('.show').click(function(){
+      $('.cont').slideToggle("slow");
+      $('.hide').show();
+      $('.show').hide();
    });
 
 //Ketika elemen class hsembunyi di klik
-   $('.sembunyi').click(function(){
+   $('.hide').click(function(){
       //Sembunyikan elemen class gambar
-      $('.lanjutan').slideToggle("slow");
-      $('.sembunyi').hide();
-      $('.tampil').show();    
+      $('.cont').slideToggle("slow");
+      $('.hide').hide();
+      $('.show').show();    
    });
 });
